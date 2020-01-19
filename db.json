@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Lilly-Rose Montoya",
+      "active": true,
+      "homeCountry": "USA",
+      "exchangeCountry": "Germany",
+      "homeUni": "MIT",
+      "gpa": "3.6"
+    },
+    {
+      "id": 1,
+      "name": "Eleri Acosta",
+      "active": true,
+      "homeCountry": "Canada",
+      "exchangeCountry": "Italy",
+      "homeUni": "UBC",
+      "gpa": "3.0"
+    },
+    {
+      "id": 1,
+      "name": "Zane Floyd",
+      "active": false,
+      "homeCountry": "France",
+      "exchangeCountry": "Germany",
+      "homeUni": "Sorbonne University",
+      "gpa": "4.0"
+    },
+    {
+      "id": 1,
+      "name": "Ada Schmidt",
+      "active": true,
+      "homeCountry": "Germany",
+      "exchangeCountry": "USA",
+      "homeUni": "Freie Uni. Berlin",
+      "gpa": "3.4"
+    }
+  ]
+}
