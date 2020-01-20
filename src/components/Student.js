@@ -8,25 +8,23 @@ const Student = props => {
   const student = props.student;
 
   return (
-    <Pane border marginBottom={10} width={640}>
+    <Pane border marginBottom={10} display="flex" width="100%">
       <Pane
-        borderBottom
-        padding={50}
+        borderRight
         display="flex"
         alignItems="center"
         justifyContent="flex-start"
+        padding={minorScale(5)}
       >
-        <Heading size={600} marginRight={5}>
-          {student.name}
-        </Heading>
-        <Badge color={student.active ? 'neutral' : 'red'}>
-          {student.active ? 'Active' : 'Not Active'}
-        </Badge>
+        <Heading size={600}>{student.name}</Heading>
       </Pane>
       <Pane padding={minorScale(5)}>
+        <Badge color={student.active ? 'neutral' : 'red'} marginBottom={5}>
+          {student.active ? 'Active' : 'Not Active'}
+        </Badge>
         <ul style={{ textAlign: 'left' }}>
           <li>Home Country: {student.homeCountry}</li>
-          <li>Home University: {student.homeUniversity}</li>
+          <li>Home University: {student.homeUni}</li>
           <li>Exchange Country Country: {student.exchangeCountry}</li>
           <li>GPA: {student.gpa}</li>
         </ul>

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Home from './pages/Home';
 import Students from './pages/Students';
-import General from './pages/General';
+import AddStudent from './pages/AddStudent';
 import { Router } from '@reach/router';
 import * as serviceWorker from './serviceWorker';
 
@@ -13,7 +13,7 @@ ReactDOM.render(
     <App path="/">
       <Home path="/" />
       <Students path="/students" />
-      <General path="/general" />
+      <AddStudent path="/add-student" />
     </App>
   </Router>,
   document.getElementById('root')

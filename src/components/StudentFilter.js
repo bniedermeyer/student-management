@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   Card,
-  Heading,
+  Pane,
   TextInputField,
   minorScale,
   Button,
@@ -9,60 +9,81 @@ import {
 } from 'evergreen-ui';
 
 export default function StudentFilter(props) {
-  const [filter, setFilter] = useState({
+  const defaultFilter = {
     name: '',
     active: '',
     homeCountry: '',
     exchangeCountry: '',
     homeUni: '',
     gpa: ''
-  });
+  };
+
+  const [filter, setFilter] = useState(defaultFilter);
 
   const updateSearchFilter = (fieldName, value) => {
     const updatedFilter = { ...filter, [fieldName]: value };
-    console.log('updated filter', updatedFilter);
+
     setFilter(updatedFilter);
   };
 
   const submitFilter = e => {
     e.preventDefault();
-    console.log('submitting filter', filter);
+
     props.setFilter(filter);
   };
 
+  const clearFilter = () => {
+    setFilter(defaultFilter);
+    props.setFilter(defaultFilter);
+  };
+
   return (
-    <Card elevation={3} border height={500} width={350} padding={minorScale(5)}>
-      <Heading>Search</Heading>
+    <Card elevation={3} border padding={minorScale(8)}>
       <form onSubmit={e => submitFilter(e)}>
-        <TextInputField
-          label="Name"
-          value={filter.name}
-          onChange={e => updateSearchFilter('name', e.target.value)}
-        />
-        <TextInputField
-          label="Home Country"
-          value={filter.homeCountry}
-          onChange={e => updateSearchFilter('homeCountry', e.target.value)}
-        />
-        <TextInputField
-          label="Home University"
-          value={filter.homeUni}
-          onChange={e => updateSearchFilter('homeUni', e.target.value)}
-        />
-        <TextInputField
-          label="ExchangeCountry"
-          value={filter.exchangeCountry}
-          onChange={e => updateSearchFilter('exchangeCountry', e.target.value)}
-        />
-        <SelectField
-          label="Active"
-          onChange={e => updateSearchFilter('active', e.target.value)}
-          value={filter.active}
+        <Pane
+          display="flex"
+          flexWrap="wrap"
+          alignItems="center"
+          justifyContent="space-between"
         >
-          <option value="">-</option>
-          <option value={true}>Active</option>
-          <option value={false}>Not Active</option>
-        </SelectField>
+          <TextInputField
+            label="Name"
+            value={filter.name}
+            marginRight={minorScale(2)}
+            onChange={e => updateSearchFilter('name', e.target.value)}
+          />
+          <TextInputField
+            label="Home Country"
+            value={filter.homeCountry}
+            marginRight={minorScale(2)}
+            onChange={e => updateSearchFilter('homeCountry', e.target.value)}
+          />
+          <TextInputField
+            label="Home University"
+            value={filter.homeUni}
+            marginRight={minorScale(2)}
+            onChange={e => updateSearchFilter('homeUni', e.target.value)}
+          />
+          <TextInputField
+            label="ExchangeCountry"
+            value={filter.exchangeCountry}
+            marginRight={minorScale(2)}
+            onChange={e =>
+              updateSearchFilter('exchangeCountry', e.target.value)
+            }
+          />
+          <SelectField
+            label="Active"
+            onChange={e => updateSearchFilter('active', e.target.value)}
+            marginRight={minorScale(2)}
+            value={filter.active}
+          >
+            <option value="">-</option>
+            <option value={true}>Active</option>
+            <option value={false}>Not Active</option>
+          </SelectField>
+        </Pane>
+
         <Button
           marginRight={16}
           appearance="primary"
@@ -71,6 +92,7 @@ export default function StudentFilter(props) {
         >
           Search
         </Button>
+        <Button onClick={() => clearFilter()}>Clear</Button>
       </form>
     </Card>
   );

@@ -24,7 +24,7 @@ function App(props) {
         <nav>
           <Pane display="flex" padding={16} background="tint2" borderRadius={3}>
             <Pane flex={1} alignItems="center" display="flex">
-              <Heading size={600}>Student Managemet</Heading>
+              <Heading size={600}>Student Management</Heading>
             </Pane>
             <Pane>
               <NavLink to="/">
@@ -33,8 +33,8 @@ function App(props) {
               <NavLink to="/students">
                 <Text marginRight={16}>Student Search</Text>
               </NavLink>
-              <NavLink to="/general">
-                <Text>General Search</Text>
+              <NavLink to="/add-student">
+                <Text>Add Student</Text>
               </NavLink>
             </Pane>
           </Pane>

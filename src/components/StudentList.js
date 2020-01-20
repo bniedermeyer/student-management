@@ -1,23 +1,33 @@
 import React from 'react';
-import { Heading } from 'evergreen-ui';
+import { Heading, Pane, Spinner } from 'evergreen-ui';
 
 import Student from '../components/Student';
 
 export default function StudentList(props) {
-  if (props.students.length === 0) {
-    return <Heading>No Results Found</Heading>;
-  }
-  const studentList = [];
-  props.students.forEach(student => {
-    studentList.push(
+  let element = null;
+
+  const studentList = props.students.map(student => {
+    return (
       <li key={student.id}>
         <Student student={student} />
       </li>
     );
   });
+  element = <ul style={{ listStyle: 'none' }}>{studentList}</ul>;
+  if (props.loading) {
+    element = <Spinner />;
+  }
+  if (props.students.length === 0) {
+    element = <Heading>No Results Found</Heading>;
+  }
   return (
-    <>
-      <ul style={{ listStyle: 'none' }}>{studentList}</ul>
-    </>
+    <Pane
+      marginTop={20}
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+    >
+      {element}
+    </Pane>
   );
 }

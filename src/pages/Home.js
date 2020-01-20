@@ -5,7 +5,7 @@ import image from '../assets/undraw_exams_g4ow.svg';
 
 const Home = () => (
   <Pane>
-    <Heading size={700} margin={50}>
+    <Heading size={900} margin={50} is="h1">
       Welcome to the Student Management Suite!
     </Heading>
     <img height={250} src={image} alt="animation of students studying" />
@@ -18,29 +18,33 @@ const Home = () => (
       className="cards"
     >
       <Card
-        elevation={4}
+        elevation={1}
+        hoverElevation={4}
         padding={50}
         display="flex"
         justifyContent="center"
         alignItems="center"
         flexDirection="column"
         margin={25}
+        background="blueTint"
       >
         <StyledLink to="/students">
           <Heading>Student Search</Heading>
         </StyledLink>
       </Card>
       <Card
-        elevation={4}
+        elevation={1}
+        hoverElevation={4}
         padding={50}
         display="flex"
         justifyContent="center"
         alignItems="center"
         flexDirection="column"
         margin={25}
+        background="blueTint"
       >
-        <StyledLink to="/general">
-          <Heading>General Search</Heading>
+        <StyledLink to="/add-student">
+          <Heading>Add a Student</Heading>
         </StyledLink>
       </Card>
     </Pane>
