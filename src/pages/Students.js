@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Pane, Heading, majorScale } from 'evergreen-ui';
 
-import { searchForStudents } from '../services/student-search';
+import { searchForStudents } from '../services/student-utils';
 import StudentFilter from '../components/StudentFilter';
 import StudentList from '../components/StudentList';
 
