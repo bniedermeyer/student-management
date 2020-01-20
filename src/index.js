@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
-    <App path={process.env.PUBLIC_URL + '/'}>
+    <App path="/">
       <Home path={process.env.PUBLIC_URL + '/'} />
       <Students path={process.env.PUBLIC_URL + '/students'} />
       <AddStudent path={process.env.PUBLIC_URL + '/add-student'} />

@@ -3,6 +3,7 @@
  * @param  filters
  */
 const searchForStudents = async filters => {
+  // todo: add paging for search - since this is a demo project it's ok. In a larger app you'd need a way to not be drowned by the load of results
   let url =
     'https://my-json-server.typicode.com/bniedermeyer/student-management/students';
 
