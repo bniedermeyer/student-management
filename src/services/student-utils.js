@@ -36,7 +36,7 @@ const searchForStudents = async filters => {
  * the server and not persisted
  * @param  student
  */
-const addStudent = async student => {
+const saveStudentToDatabase = async student => {
   let url =
     'https://my-json-server.typicode.com/bniedermeyer/student-management/students';
 
@@ -48,7 +48,4 @@ const addStudent = async student => {
   return await response.json();
 };
 
-module.exports = {
-  searchForStudents,
-  addStudent
-};
+export { searchForStudents, saveStudentToDatabase };

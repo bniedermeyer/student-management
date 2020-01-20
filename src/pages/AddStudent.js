@@ -10,7 +10,7 @@ import {
   toaster
 } from 'evergreen-ui';
 
-import { addStudent } from '../services/student-utils';
+import { saveStudentToDatabase } from '../services/student-utils';
 
 const AddStudent = () => {
   const defaultStudent = {
@@ -30,7 +30,7 @@ const AddStudent = () => {
 
   const saveStudent = async e => {
     e.preventDefault();
-    await addStudent(student);
+    await saveStudentToDatabase(student);
     toaster.success('Student Created');
   };
 
