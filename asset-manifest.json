@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/student-management/static/css/main.eab24d3c.chunk.css",
+    "main.js": "/student-management/static/js/main.b62b7f84.chunk.js",
+    "main.js.map": "/student-management/static/js/main.b62b7f84.chunk.js.map",
+    "runtime-main.js": "/student-management/static/js/runtime-main.23b3dc97.js",
+    "runtime-main.js.map": "/student-management/static/js/runtime-main.23b3dc97.js.map",
+    "static/js/2.3fcc5251.chunk.js": "/student-management/static/js/2.3fcc5251.chunk.js",
+    "static/js/2.3fcc5251.chunk.js.map": "/student-management/static/js/2.3fcc5251.chunk.js.map",
+    "index.html": "/student-management/index.html",
+    "precache-manifest.c5cb7a4c8e693e7671794491926372b5.js": "/student-management/precache-manifest.c5cb7a4c8e693e7671794491926372b5.js",
+    "service-worker.js": "/student-management/service-worker.js",
+    "static/css/main.eab24d3c.chunk.css.map": "/student-management/static/css/main.eab24d3c.chunk.css.map",
+    "static/js/2.3fcc5251.chunk.js.LICENSE": "/student-management/static/js/2.3fcc5251.chunk.js.LICENSE",
+    "static/media/undraw_exams_g4ow.svg": "/student-management/static/media/undraw_exams_g4ow.6e98631b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23b3dc97.js",
+    "static/js/2.3fcc5251.chunk.js",
+    "static/css/main.eab24d3c.chunk.css",
+    "static/js/main.b62b7f84.chunk.js"
+  ]
+}
