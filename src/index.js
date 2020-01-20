@@ -10,10 +10,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
-    <App path="/">
-      <Home path="/" />
-      <Students path="/students" />
-      <AddStudent path="/add-student" />
+    <App path={process.env.PUBLIC_URL + '/'}>
+      <Home path={process.env.PUBLIC_URL + '/'} />
+      <Students path={process.env.PUBLIC_URL + '/students'} />
+      <AddStudent path={process.env.PUBLIC_URL + '/add-student'} />
     </App>
   </Router>,
   document.getElementById('root')

@@ -27,13 +27,13 @@ function App(props) {
               <Heading size={600}>Student Management</Heading>
             </Pane>
             <Pane>
-              <NavLink to="/">
+              <NavLink to={process.env.PUBLIC_URL + '/'}>
                 <Text marginRight={16}>Home</Text>
               </NavLink>
-              <NavLink to="/students">
+              <NavLink to={process.env.PUBLIC_URL + '/students'}>
                 <Text marginRight={16}>Student Search</Text>
               </NavLink>
-              <NavLink to="/add-student">
+              <NavLink to={process.env.PUBLIC_URL + '/add-student'}>
                 <Text>Add Student</Text>
               </NavLink>
             </Pane>

@@ -28,7 +28,7 @@ const Home = () => (
         margin={25}
         background="blueTint"
       >
-        <StyledLink to="/students">
+        <StyledLink to={process.env.PUBLIC_URL + '/students'}>
           <Heading>Student Search</Heading>
         </StyledLink>
       </Card>
@@ -43,7 +43,7 @@ const Home = () => (
         margin={25}
         background="blueTint"
       >
-        <StyledLink to="/add-student">
+        <StyledLink to={process.env.PUBLIC_URL + '/add-student'}>
           <Heading>Add a Student</Heading>
         </StyledLink>
       </Card>
