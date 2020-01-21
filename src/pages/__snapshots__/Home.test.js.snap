@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the home page 1`] = `
+<div
+  className="css-nil 📦box-szg_border-box"
+>
+  <h1
+    className="📦mt_50px 📦mb_50px 📦fnt-sze_35px 📦f-wght_500 📦ln-ht_40px 📦ltr-spc_-0-2px 📦fnt-fam_wm9v6k 📦color_234361 📦ml_50px 📦mr_50px 📦box-szg_border-box"
+  >
+    Welcome to the Student Management Suite!
+  </h1>
+  <img
+    alt="animation of students studying"
+    height={250}
+    src="undraw_exams_g4ow.svg"
+  />
+  <p
+    className="📦color_425A70 📦fnt-fam_b77syt 📦mt_50px 📦mb_50px 📦fnt-sze_14px 📦f-wght_400 📦ln-ht_21px 📦ltr-spc_-0-05px 📦ml_50px 📦mr_50px 📦box-szg_border-box"
+  >
+    Please choose from the options below
+  </p>
+  <div
+    className="cards css-nil 📦h_100prcnt 📦dspl_flex 📦just-cnt_center 📦box-szg_border-box"
+  >
+    <div
+      className="css-1jo0gwu 📦bs_17bru36 📦bg_1vicuwj 📦bblr_5px 📦bbrr_5px 📦btlr_5px 📦btrr_5px 📦pb_50px 📦pl_50px 📦pr_50px 📦pt_50px 📦dspl_flex 📦just-cnt_center 📦algn-itms_center 📦flx-drct_column 📦mb_25px 📦ml_25px 📦mr_25px 📦mt_25px 📦box-szg_border-box"
+    >
+      <a
+        href="/students"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <h2
+          className="📦mt_0px 📦mb_0px 📦fnt-sze_16px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦fnt-fam_b77syt 📦color_234361 📦box-szg_border-box"
+        >
+          Student Search
+        </h2>
+      </a>
+    </div>
+    <div
+      className="css-1jo0gwu 📦bs_17bru36 📦bg_1vicuwj 📦bblr_5px 📦bbrr_5px 📦btlr_5px 📦btrr_5px 📦pb_50px 📦pl_50px 📦pr_50px 📦pt_50px 📦dspl_flex 📦just-cnt_center 📦algn-itms_center 📦flx-drct_column 📦mb_25px 📦ml_25px 📦mr_25px 📦mt_25px 📦box-szg_border-box"
+    >
+      <a
+        href="/add-student"
+        onClick={[Function]}
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        <h2
+          className="📦mt_0px 📦mb_0px 📦fnt-sze_16px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦fnt-fam_b77syt 📦color_234361 📦box-szg_border-box"
+        >
+          Add a Student
+        </h2>
+      </a>
+    </div>
+  </div>
+</div>
+`;

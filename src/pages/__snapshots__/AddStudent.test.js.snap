@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the page 1`] = `
+<div
+  className="css-nil 📦box-szg_border-box"
+>
+  <h1
+    className="📦mt_0px 📦mb_0px 📦fnt-sze_35px 📦f-wght_500 📦ln-ht_40px 📦ltr-spc_-0-2px 📦fnt-fam_wm9v6k 📦color_234361 📦box-szg_border-box"
+  >
+    Add a Student
+  </h1>
+  <div
+    className="css-nil 📦b-top_1px-solid-E4E7EB 📦b-rgt_1px-solid-E4E7EB 📦b-btm_1px-solid-E4E7EB 📦b-lft_1px-solid-E4E7EB 📦bs_17sc08g 📦bblr_5px 📦bbrr_5px 📦btlr_5px 📦btrr_5px 📦pb_32px 📦pl_32px 📦pr_32px 📦pt_32px 📦w_50prcnt 📦ml_25prcnt 📦mt_16px 📦txt-algn_left 📦box-szg_border-box"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="css-nil 📦dspl_grid 📦grd-tmp-col_fefeyf 📦box-szg_border-box"
+      >
+        <div
+          className="📦mb_24px 📦mr_8px 📦box-szg_border-box"
+        >
+          <label
+            className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦dspl_block 📦mb_4px 📦box-szg_border-box"
+            htmlFor="TextInputField-0"
+          >
+            Name
+             
+          </label>
+          <input
+            aria-invalid={false}
+            className="css-5ljhhe student-name 📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦w_100prcnt 📦h_32px 📦pl_10px 📦pr_10px 📦bblr_3px 📦bbrr_3px 📦btlr_3px 📦btrr_3px 📦box-szg_border-box"
+            disabled={false}
+            id="TextInputField-0"
+            onChange={[Function]}
+            spellCheck={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="📦mb_24px 📦mr_8px 📦box-szg_border-box"
+        >
+          <label
+            className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦dspl_block 📦mb_4px 📦box-szg_border-box"
+            htmlFor="TextInputField-1"
+          >
+            Home Country
+             
+          </label>
+          <input
+            aria-invalid={false}
+            className="css-5ljhhe home-country 📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦w_100prcnt 📦h_32px 📦pl_10px 📦pr_10px 📦bblr_3px 📦bbrr_3px 📦btlr_3px 📦btrr_3px 📦box-szg_border-box"
+            disabled={false}
+            id="TextInputField-1"
+            onChange={[Function]}
+            spellCheck={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="📦mb_24px 📦mr_8px 📦box-szg_border-box"
+        >
+          <label
+            className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦dspl_block 📦mb_4px 📦box-szg_border-box"
+            htmlFor="TextInputField-2"
+          >
+            Home University
+             
+          </label>
+          <input
+            aria-invalid={false}
+            className="css-5ljhhe home-university 📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦w_100prcnt 📦h_32px 📦pl_10px 📦pr_10px 📦bblr_3px 📦bbrr_3px 📦btlr_3px 📦btrr_3px 📦box-szg_border-box"
+            disabled={false}
+            id="TextInputField-2"
+            onChange={[Function]}
+            spellCheck={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="📦mb_24px 📦mr_8px 📦box-szg_border-box"
+        >
+          <label
+            className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦dspl_block 📦mb_4px 📦box-szg_border-box"
+            htmlFor="TextInputField-3"
+          >
+            ExchangeCountry
+             
+          </label>
+          <input
+            aria-invalid={false}
+            className="css-5ljhhe exchange-country 📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦w_100prcnt 📦h_32px 📦pl_10px 📦pr_10px 📦bblr_3px 📦bbrr_3px 📦btlr_3px 📦btrr_3px 📦box-szg_border-box"
+            disabled={false}
+            id="TextInputField-3"
+            onChange={[Function]}
+            spellCheck={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="📦mb_24px 📦mr_8px 📦box-szg_border-box"
+        >
+          <label
+            className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦dspl_block 📦mb_4px 📦box-szg_border-box"
+            htmlFor="TextInputField-4"
+          >
+            GPA
+             
+          </label>
+          <input
+            aria-invalid={false}
+            className="css-5ljhhe gpa 📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦w_100prcnt 📦h_32px 📦pl_10px 📦pr_10px 📦bblr_3px 📦bbrr_3px 📦btlr_3px 📦btrr_3px 📦box-szg_border-box"
+            disabled={false}
+            id="TextInputField-4"
+            onChange={[Function]}
+            spellCheck={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          aria-label="Active"
+          className="active css-nil 📦box-szg_border-box"
+          role="group"
+        >
+          <span
+            className="📦color_66788A 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_500 📦ln-ht_20px 📦ltr-spc_-0-05px 📦box-szg_border-box"
+          >
+            Active
+          </span>
+          <label
+            className="📦crsr_pointer 📦pst_relative 📦dspl_flex 📦mb_8px 📦mt_8px 📦box-szg_border-box"
+          >
+            <input
+              aria-invalid={false}
+              checked={true}
+              className="css-1bkiqpw 📦box-szg_border-box"
+              name="RadioGroup-1"
+              onChange={[Function]}
+              required={false}
+              type="radio"
+              value="true"
+            />
+            <div
+              className="📦box-szg_border-box 📦bblr_9999px 📦bbrr_9999px 📦btlr_9999px 📦btrr_9999px 📦dspl_flex 📦flx_none 📦algn-itms_center 📦just-cnt_center 📦mt_2px 📦w_12px 📦h_12px"
+            >
+              <svg
+                height={4}
+                viewBox="0 0 10 10"
+                width={4}
+              >
+                <circle
+                  cx="5"
+                  cy="5"
+                  fill="currentColor"
+                  r="5"
+                />
+              </svg>
+            </div>
+            <span
+              className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦ml_8px 📦box-szg_border-box"
+            >
+              Active
+            </span>
+          </label>
+          <label
+            className="📦crsr_pointer 📦pst_relative 📦dspl_flex 📦mb_8px 📦mt_8px 📦box-szg_border-box"
+          >
+            <input
+              aria-invalid={false}
+              checked={false}
+              className="css-1bkiqpw 📦box-szg_border-box"
+              name="RadioGroup-1"
+              onChange={[Function]}
+              required={false}
+              type="radio"
+              value="false"
+            />
+            <div
+              className="📦box-szg_border-box 📦bblr_9999px 📦bbrr_9999px 📦btlr_9999px 📦btrr_9999px 📦dspl_flex 📦flx_none 📦algn-itms_center 📦just-cnt_center 📦mt_2px 📦w_12px 📦h_12px"
+            >
+              <svg
+                height={4}
+                viewBox="0 0 10 10"
+                width={4}
+              >
+                <circle
+                  cx="5"
+                  cy="5"
+                  fill="currentColor"
+                  r="5"
+                />
+              </svg>
+            </div>
+            <span
+              className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_12px 📦f-wght_400 📦ln-ht_16px 📦ltr-spc_0 📦ml_8px 📦box-szg_border-box"
+            >
+              Inactive
+            </span>
+          </label>
+        </div>
+      </div>
+      <div
+        className="css-nil 📦dspl_flex 📦just-cnt_flex-end 📦box-szg_border-box"
+      >
+        <button
+          className="css-69cngj btn-reset 📦fnt-fam_b77syt 📦mt_0px 📦fnt-sze_12px 📦f-wght_500 📦ln-ht_32px 📦ltr-spc_0 📦btrr_3px 📦bbrr_3px 📦btlr_3px 📦bblr_3px 📦pt_0px 📦pb_0px 📦pr_16px 📦pl_16px 📦ml_0px 📦mr_8px 📦mb_0px 📦h_32px 📦pst_relative 📦dspl_inline-flex 📦algn-itms_center 📦flx-wrap_nowrap 📦box-szg_border-box"
+          onClick={[Function]}
+          type="button"
+        >
+          Reset Form
+        </button>
+        <button
+          className="css-nwvixr btn-save 📦fnt-fam_b77syt 📦mt_0px 📦fnt-sze_12px 📦f-wght_500 📦ln-ht_32px 📦ltr-spc_0 📦btrr_3px 📦bbrr_3px 📦btlr_3px 📦bblr_3px 📦pt_0px 📦pb_0px 📦pr_16px 📦pl_16px 📦ml_0px 📦mr_16px 📦mb_0px 📦h_32px 📦pst_relative 📦dspl_inline-flex 📦algn-itms_center 📦flx-wrap_nowrap 📦box-szg_border-box"
+          type="submit"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

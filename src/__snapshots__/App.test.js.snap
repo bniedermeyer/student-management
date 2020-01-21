@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the app 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <nav>
+      <div
+        className="css-nil 📦bg_1eozcqw 📦dspl_flex 📦pb_16px 📦pl_16px 📦pr_16px 📦pt_16px 📦bblr_3px 📦bbrr_3px 📦btlr_3px 📦btrr_3px 📦box-szg_border-box"
+      >
+        <div
+          className="css-nil 📦flx_1 📦algn-itms_center 📦dspl_flex 📦box-szg_border-box"
+        >
+          <h2
+            className="📦mt_0px 📦mb_0px 📦fnt-sze_20px 📦f-wght_500 📦ln-ht_24px 📦ltr-spc_-0-07px 📦fnt-fam_wm9v6k 📦color_234361 📦box-szg_border-box"
+          >
+            Student Management
+          </h2>
+        </div>
+        <div
+          className="css-nil 📦box-szg_border-box"
+        >
+          <a
+            aria-current="page"
+            href="/"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          >
+            <span
+              className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_400 📦ln-ht_20px 📦ltr-spc_-0-05px 📦mr_16px 📦box-szg_border-box"
+            >
+              Home
+            </span>
+          </a>
+          <a
+            href="/students"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            <span
+              className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_400 📦ln-ht_20px 📦ltr-spc_-0-05px 📦mr_16px 📦box-szg_border-box"
+            >
+              Student Search
+            </span>
+          </a>
+          <a
+            href="/add-student"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            <span
+              className="📦color_425A70 📦fnt-fam_b77syt 📦fnt-sze_14px 📦f-wght_400 📦ln-ht_20px 📦ltr-spc_-0-05px 📦box-szg_border-box"
+            >
+              Add Student
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    My Other Components
+  </div>
+</div>
+`;

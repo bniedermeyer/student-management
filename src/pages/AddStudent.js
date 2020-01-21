@@ -52,36 +52,42 @@ const AddStudent = () => {
           <Pane display="grid" gridTemplateColumns="repeat(2, auto)">
             <TextInputField
               label="Name"
+              className="student-name"
               value={student.name}
               marginRight={minorScale(2)}
               onChange={e => updateStudent('name', e.target.value)}
             />
             <TextInputField
               label="Home Country"
+              className="home-country"
               value={student.homeCountry}
               marginRight={minorScale(2)}
               onChange={e => updateStudent('homeCountry', e.target.value)}
             />
             <TextInputField
               label="Home University"
+              className="home-university"
               value={student.homeUni}
               marginRight={minorScale(2)}
               onChange={e => updateStudent('homeUni', e.target.value)}
             />
             <TextInputField
               label="ExchangeCountry"
+              className="exchange-country"
               value={student.exchangeCountry}
               marginRight={minorScale(2)}
               onChange={e => updateStudent('exchangeCountry', e.target.value)}
             />
             <TextInputField
               label="GPA"
+              className="gpa"
               value={student.gpa}
               marginRight={minorScale(2)}
               onChange={e => updateStudent('gpa', e.target.value)}
             />
             <RadioGroup
               label="Active"
+              className="active"
               value={student.active}
               options={[
                 { label: 'Active', value: 'true' },
@@ -93,6 +99,7 @@ const AddStudent = () => {
           <Pane display="flex" justifyContent="flex-end">
             <Button
               type="button"
+              className="btn-reset"
               onClick={() => setStudent(defaultStudent)}
               marginRight={minorScale(2)}
             >
@@ -100,6 +107,7 @@ const AddStudent = () => {
             </Button>
             <Button
               marginRight={16}
+              className="btn-save"
               appearance="primary"
               iconBefore="save"
               type="submit"
